@@ -1,0 +1,16 @@
+No seu php.ini
+
+Faça uma busca pela palavra "include_path", e inclua o repositorio com a pasta includes do projeto do salas.
+
+Exemplo:
+include_path = ".:/app/salas/php/includes:/app/salas/php/pear"
+ou no win:
+include_path=".;C:\xampp\php\PEAR;C:\xampp\htdocs\salas\php\includes"
+
+
+O dump da base pode ser baixado em :
+http://salasdoempreendedor.com.br/db.zip
+
+Dentro da pasta salas php existe um zip com os arquivos do servidor. Como estava dando muitos erros no svn optei por zipar os arquivos. 
+
+salas\php\php.zip

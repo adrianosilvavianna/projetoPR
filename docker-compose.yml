@@ -1,0 +1,8 @@
+version: '3'
+services:
+    php-5:
+        image: nimmis/apache-php5
+        volumes:
+            - ./mei:/var/www/html
+        ports:
+            - "8001:80"
